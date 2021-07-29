@@ -47,7 +47,9 @@ The pre-trained models can be found in `pretrain/`
 
 ## Citation
 
-Please use the citation provided below if it is useful to your research:
+Part of the code comes from [STGAT](https://github.com/huang-xx/STGAT). If you find this code useful then please also cite their paper.
+
+Please use the citation provided below if this repo is useful to your research:
 
 ```
 @inproceedings{CausalHTP,
