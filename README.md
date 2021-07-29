@@ -29,12 +29,12 @@ The datasets can be found in `datasets/`, we provide 5 scenes including eth, hot
 
 You can train the model for eth dataset as 
 ```
-python train.py --dataset_name "eth"
+python train.py --dataset_name eth
 ```
 
 To evaluate the trained model, you can use
 ```
-python evaluate_model.py --dataset_name "eth" --resume "your_checkpoint.pth.tar"
+python evaluate_model.py --dataset_name eth --resume your_checkpoint.pth.tar
 ```
 The pre-trained models can be found in `pretrain/`
 
