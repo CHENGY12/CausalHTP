@@ -40,7 +40,7 @@ The pre-trained models can be found in `pretrain/`
 
 ## Result
 
-| Methods(ADE/FDE) | ETH   | HOTEL | ZARA1 | ZARA2 | UNIV | AVG |
+| Results (ADE/FDE) | ETH   | HOTEL | ZARA1 | ZARA2 | UNIV | AVG |
 | :------------: | :---: | :---: | :---: | :---: | :---: | :---: |
 | STGAT          | 0.73/1.39 | 0.38/0.72 | 0.35/0.69 | 0.32/0.64 | 0.57/1.22 | 0.47/0.93 |
 | Causal-STGAT   | 0.60/0.98 | 0.30/0.54 | 0.32/0.64 | 0.28/0.58 | 0.52/1.10 | 0.40/0.77 |
