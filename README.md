@@ -36,6 +36,7 @@ To evaluate the trained model, you can use
 ```
 python evaluate_model.py --dataset_name "eth" --resume "your_checkpoint.pth.tar"
 ```
+The pre-trained models can be found in `pretrain/`
 
 ## Result
 
@@ -43,3 +44,16 @@ python evaluate_model.py --dataset_name "eth" --resume "your_checkpoint.pth.tar"
 | :------------: | :---: | :---: | :---: | :---: | :---: | :---: |
 | STGAT          | 0.73/1.39 | 0.38/0.72 | 0.35/0.69 | 0.32/0.64 | 0.57/1.22 | 0.47/0.93 |
 | Causal-STGAT   | 0.60/0.98 | 0.30/0.54 | 0.32/0.64 | 0.28/0.58 | 0.52/1.10 | 0.40/0.77 |
+
+## Citation
+
+Please use the citation provided below if it is useful to your research:
+
+```
+@inproceedings{CausalHTP,
+  title={Human Trajectory Prediction via Counterfactual Analysis},
+  author={Chen, Guangyi and Li, Junlong and Lu, Jiwen and Zhou, Jie},
+  booktitle={ICCV},
+  year={2021}
+}
+```
